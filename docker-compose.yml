@@ -1,0 +1,10 @@
+services:
+  web:
+    build: .
+    image: ademon-web
+    container_name: ademon-web
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
