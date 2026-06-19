@@ -38,7 +38,7 @@ export default function HakkimizdaPage() {
             her zorluğu profesyonel ekipman ve doğa dostu çözümlerle ele alıyoruz.
           </p>
           <p className="mt-4 leading-relaxed text-neutral-400">
-            Bugün İstanbul genelinde onlarca aileye ve işletmeye hizmet veriyoruz.
+            Bugün Giresun genelinde onlarca aileye ve işletmeye hizmet veriyoruz.
             Temiz bir ortam, sadece mekanı değil; ruh halini de değiştirir.
           </p>
         </div>

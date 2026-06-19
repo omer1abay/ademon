@@ -84,7 +84,7 @@ export default function IletisimPage() {
           <div className="overflow-hidden rounded-2xl border border-ink-border">
             <iframe
               title="Konum"
-              src="https://www.openstreetmap.org/export/embed.html?bbox=38.36%2C40.90%2C38.42%2C40.93&layer=mapnik"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=38.36%2C40.90%2C38.42%2C40.93&layer=mapnik&marker=40.9128%2C38.3895"
               className="h-64 w-full grayscale"
               loading="lazy"
             />

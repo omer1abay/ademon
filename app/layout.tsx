@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "ofis temizliği",
     "cam temizliği",
     "apartman temizliği",
-    "İstanbul temizlik",
+    "Giresun temizlik",
     "ademon",
     "ademon temizlik",
   ],

@@ -15,15 +15,15 @@ export const site = {
   motto: "Temizliğin Adı, Güvenin Adresi.",
   description:
     "Ev, ofis, apartman ve işletmeler için profesyonel, güvenilir ve %100 memnuniyet garantili temizlik hizmetleri.",
-  phoneDisplay: "0 532 544 87 26",
-  phoneRaw: "+905325448726",
+  phoneDisplay: "0535 794 36 28",
+  phoneRaw: "+905357943628",
   whatsappRaw: "905325448726",
   email: "info@ademon.com.tr",
   web: "www.ademon.com.tr",
-  address: "Örnek Mah. Temizlik Sok. No:1/1, 34000 İstanbul",
+  address: "Seldeğirmeni Mah. Kabacaküz Sok. No:34, Merkez/Giresun",
   hours: "Hafta içi & Cumartesi, 09:00 – 18:00",
   instagram: "https://instagram.com",
-  mapUrl: "https://maps.google.com/?q=İstanbul",
+  mapUrl: "https://maps.google.com/?q=Seldeğirmeni+Mahallesi+Giresun",
 } as const;
 
 export const nav = [
@@ -189,7 +189,7 @@ export const testimonials = [
 export const faqs = [
   {
     q: "Hangi bölgelere hizmet veriyorsunuz?",
-    a: "İstanbul'un Avrupa ve Anadolu Yakası'ndaki tüm ilçelere hizmet veriyoruz.",
+    a: "Giresun Merkez ve çevre ilçelere hizmet veriyoruz.",
   },
   {
     q: "Randevu nasıl alabilirim?",
@@ -214,12 +214,12 @@ export const faqs = [
 ];
 
 export const serviceArea = [
-  "Kadıköy",
-  "Üsküdar",
-  "Ataşehir",
-  "Maltepe",
-  "Beşiktaş",
-  "Şişli",
-  "Bakırköy",
-  "Beylikdüzü",
+  "Giresun Merkez",
+  "Bulancak",
+  "Espiye",
+  "Tirebolu",
+  "Görele",
+  "Keşap",
+  "Dereli",
+  "Şebinkarahisar",
 ];
