@@ -8,6 +8,9 @@ const isStatic = process.env.STATIC_EXPORT === "true";
 const nextConfig = {
   output: isStatic ? "export" : "standalone",
   reactStrictMode: true,
+  // Her sayfayı klasör/index.html olarak üretir (örn. hizmetler/index.html).
+  // Statik host'larda (Render, GitHub Pages) "Not Found" hatasını önler.
+  trailingSlash: true,
   // Statik export'ta Next/Image optimizasyon sunucusu olmadığı için kapatılır.
   images: { unoptimized: true },
 };
