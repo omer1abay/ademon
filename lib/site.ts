@@ -17,8 +17,8 @@ export const site = {
     "Ev, ofis, apartman ve işletmeler için profesyonel, güvenilir ve %100 memnuniyet garantili temizlik hizmetleri.",
   phoneDisplay: "0535 794 36 28",
   phoneRaw: "+905357943628",
-  whatsappRaw: "905325448726",
-  whatsappDisplay: "0532 544 87 26",
+  whatsappRaw: "905357943628",
+  whatsappDisplay: "0535 794 36 28",
   // E-posta (info@ademon.com.tr) şu an aktif değil — sitede gösterilmiyor,
   // iletişim WhatsApp üzerinden yönlendiriliyor. Aktif olunca buraya ekleyin.
   web: "www.ademon.com.tr",
