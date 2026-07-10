@@ -18,7 +18,9 @@ export const site = {
   phoneDisplay: "0535 794 36 28",
   phoneRaw: "+905357943628",
   whatsappRaw: "905325448726",
-  email: "info@ademon.com.tr",
+  whatsappDisplay: "0532 544 87 26",
+  // E-posta (info@ademon.com.tr) şu an aktif değil — sitede gösterilmiyor,
+  // iletişim WhatsApp üzerinden yönlendiriliyor. Aktif olunca buraya ekleyin.
   web: "www.ademon.com.tr",
   address: "Seldeğirmeni Mah. Kabacaküz Sok. No:34, Merkez/Giresun",
   hours: "Hafta içi & Cumartesi, 09:00 – 18:00",

@@ -6,12 +6,17 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "İletişim",
   description:
-    "Teklif ve randevu için bize ulaşın. Telefon, WhatsApp, e-posta ve adres bilgileri.",
+    "Teklif ve randevu için bize ulaşın. Telefon, WhatsApp ve adres bilgileri.",
 };
 
 const contactItems = [
   { icon: "☎", label: "Telefon", value: site.phoneDisplay, href: `tel:${site.phoneRaw}` },
-  { icon: "✉", label: "E-posta", value: site.email, href: `mailto:${site.email}` },
+  {
+    icon: "💬",
+    label: "WhatsApp",
+    value: site.whatsappDisplay,
+    href: `https://wa.me/${site.whatsappRaw}`,
+  },
   { icon: "📍", label: "Adres", value: site.address, href: site.mapUrl },
   { icon: "🕘", label: "Çalışma Saatleri", value: site.hours },
 ];
