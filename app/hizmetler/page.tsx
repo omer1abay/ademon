@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SectionHeading } from "@/components/Section";
 import CtaBand from "@/components/CtaBand";
-import PriceMiniTable from "@/components/PriceMiniTable";
-import { pricing, services } from "@/lib/site";
+import { services } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Hizmetler",
@@ -26,7 +25,6 @@ export default function HizmetlerPage() {
 
       <section className="container-x space-y-8 pb-20">
         {services.map((s, i) => {
-          const priceCategory = pricing.find((p) => p.serviceSlug === s.slug);
           return (
             <div
               key={s.slug}
@@ -55,17 +53,13 @@ export default function HizmetlerPage() {
                 </ul>
               </div>
               <div>
-                {priceCategory ? (
-                  <PriceMiniTable category={priceCategory} />
-                ) : (
-                  <div className="rounded-2xl border border-gold/20 bg-ink px-5 py-6 text-center text-sm text-neutral-400">
-                    Bu hizmette fiyat, alan büyüklüğüne göre belirlenir.
-                    <br />
-                    <span className="text-gold">
-                      Ücretsiz keşif ile net teklif alın.
-                    </span>
-                  </div>
-                )}
+                <div className="rounded-2xl border border-gold/20 bg-ink px-5 py-6 text-center text-sm text-neutral-400">
+                  Fiyat, alan büyüklüğüne ve hizmet kapsamına göre belirlenir.
+                  <br />
+                  <span className="text-gold">
+                    Ücretsiz keşif ile net teklif alın.
+                  </span>
+                </div>
                 <Link href="/iletisim" className="btn-gold mt-6">
                   Teklif Al
                 </Link>

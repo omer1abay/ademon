@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { SectionHeading, Stat } from "@/components/Section";
 import CtaBand from "@/components/CtaBand";
-import PricingTabs from "@/components/PricingTabs";
 import {
   faqs,
   features,
@@ -94,20 +93,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Pricing */}
-      <section id="fiyatlar" className="border-y border-ink-border bg-ink-soft">
-        <div className="container-x py-20">
-          <SectionHeading
-            eyebrow="Fiyat Listesi"
-            title="Şeffaf ve Net Fiyatlar"
-            subtitle="Sürpriz maliyet yok. Hizmet kategorisini seçin, güncel fiyatlarımızı anında görün."
-          />
-          <PricingTabs />
-        </div>
-      </section>
-
       {/* Why us */}
-      <section className="border-b border-ink-border">
+      <section className="border-b border-ink-border bg-ink-soft">
         <div className="container-x py-20">
           <SectionHeading
             eyebrow="Neden Biz?"
